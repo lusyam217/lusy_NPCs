@@ -1,3 +1,7 @@
+ESX = nil
+ESX = exports['es_extended']:getSharedObject()
+
+
 local vehiclesToRemove = { "futo", "adder", "banshee" } -- lista de modelos de vehículos a eliminar
 
 Citizen.CreateThread(function()
